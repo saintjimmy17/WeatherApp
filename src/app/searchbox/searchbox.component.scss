@@ -1,0 +1,26 @@
+form{
+    align-self: center;
+    width: 100%;
+    .searchBox{
+        .bx-search{
+            position: relative;
+            left: 26px;
+            top: 4px;
+            z-index: 999;
+            color: #f2f2f2;
+            font-size: 20px;
+        }
+        input{
+            width: 90%;
+            height: 35px;
+            padding-left: 30px;
+            border-radius: 12px;
+            background-color: rgb(240, 240, 240, 0.26);
+            color: #f2f2f2;
+            &::placeholder{
+                color:#f2f2f2;
+                font-size: 16px;
+            }
+        }
+    }
+}
